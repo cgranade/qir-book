@@ -6,6 +6,8 @@ dependencies:
   - numpy
   - pip
   - dotnet-sdk>=6.0
+  # Required by .NET Interactive.
+  - dotnet-aspnetcore>=6.0
   - notebook
   - pip:
     - sphinx-design
