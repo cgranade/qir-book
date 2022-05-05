@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 
+which python
+conda info
+
 echo "## Installing PowerShell notebook support. ##"
 
 dotnet tool install -g PowerShell
