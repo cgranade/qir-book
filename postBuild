@@ -1,4 +1,7 @@
 #!/bin/bash
+set -e
+
+echo "## Installing PowerShell notebook support. ##"
 
 dotnet tool install -g PowerShell
 dotnet tool install -g Microsoft.dotnet-interactive
