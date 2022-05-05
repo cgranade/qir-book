@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-conda activate notebook
 
 echo "## Installing PowerShell notebook support. ##"
 
