@@ -1,13 +1,10 @@
 #!/bin/bash
 set -e
 
-which python
-conda info
-conda env list
-
+conda activate notebook
 
 echo "## Installing PowerShell notebook support. ##"
 
-# dotnet tool install -g PowerShell
-# dotnet tool install -g Microsoft.dotnet-interactive
-# dotnet interactive jupyter install
+dotnet tool install -g PowerShell
+dotnet tool install -g Microsoft.dotnet-interactive
+dotnet interactive jupyter install
