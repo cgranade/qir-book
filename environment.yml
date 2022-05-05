@@ -5,6 +5,8 @@ dependencies:
   - matplotlib
   - numpy
   - pip
+  - dotnet-sdk>=6.0
+  - notebook
   - pip:
     - sphinx-design
     - jupyter-book
