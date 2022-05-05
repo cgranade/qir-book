@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+export PATH="$PATH:/home/jovyan/.dotnet/tools"
 
 echo "## Installing PowerShell notebook support. ##"
 
