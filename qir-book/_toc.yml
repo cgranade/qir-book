@@ -3,26 +3,29 @@ root: index
 parts:
 - caption: Tutorials
   chapters:
-  - file: tutorials
+  - file: tutorials/qir-gen-qsharp
+  - file: tutorials/qir-python
+  - file: tutorials/qat-optimization
+  - file: tutorials/visualize-qir
 
 - caption: Concepts
   chapters:
-  - file: conceptual
+  - file: concepts/what-is-qir
+  - file: concepts/why-do-we-need
+  - file: concepts/using-qir
+  - file: reference/glossary
 
 - caption: Reference
   chapters:
-  - file: reference/reference
-  - file: reference/glossary
-  - file: reference/example-content
-    sections:
-    - file: reference/markdown
-    - file: reference/notebooks
-
-- caption: About QIR
-  chapters:
+  - file: project-gallery
   - url: http://qir-alliance.org/
-    title: QIR Alliance website
-  - file: community-projects
+    title: QIR Alliance Organization
+
+- caption: About QIR book
+  chapters:
+  - file: reference/_contributing
+  - file: tools
+    title: QIR book toolchain
   - file: cite
   - file: reference/_changelog
-    title: Change log
+  # - file: genindex
